@@ -30,27 +30,44 @@
 
 [colors]
 ; purple
-background = #292D3E
-second-background = #34324A
-foreground = #A6ACCD
-selection-background = #484f72
-selection-foreground = #FFFFFF
+;background = #292D3E
+;second-background = #34324A
+;foreground = #A6ACCD
+;selection-background = #484f72
+;selection-foreground = #FFFFFF
 comment = #676E95
-cyan = #89DDFF
-green = #C3E88D
-orange = #F78C6C
-purple = #C792EA
-red = #F07178
-yellow = #FFCB6B
-blue = #82AAFF
+;cyan = #89DDFF
+;green = #C3E88D
+;orange = #F78C6C
+;purple = #C792EA
+;red = #F07178
+;yellow = #FFCB6B
+;blue = #82AAFF
 gray = #676E95
 error = #FF5370
 links = #80CBC4
 
+;ayu
+yellow = #ffd580
+orange = #fe8019
+blue = #73d0ff
+green = #bae67e
+red = #ff3333
+background = #fafafa
+second-background = #fafafa
+foreground = #5b6673
+selection-background = #f0ede4
+selection-foreground = #fafafa
+;bg = #1f2430
+;fg = #bfbab0
+icons = #bae67e
+cyan = #95e6cb
+text = ${xrdb:color2}
+unfocus = ${xrdb:color1}
 
 ; bar 1
 [bar/monitor]
-monitor = ${env:MONITOR:DP-2}
+monitor = ${env:MONITOR:eDP-1}
 monitor-exact = true
 width = 100%
 height = 32
